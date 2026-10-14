@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+env/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Node.js
+node_modules/
+dist/
+
+# Local data
+*.csv
+*.xlsx
+*.xls
+*.parquet
+
+# Logs and editor files
+*.log
+.vscode/
+.DS_Store
+
+# Backend virtual environment
+backend/venv/
+
+# Python backup files
+backend/*.backup.py
+backend/*.priority-backup.py
+
+# Frontend backup files
+src/*.backup.*
+src/*.priority-backup.*
